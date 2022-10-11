@@ -6,4 +6,4 @@ I will most likely add anything, ranging from stuff i did with no tutorials, to 
 
 ---Updates---
 
-Updated and fixed diskfiller virus, will fill your disk up with anywhere between 1 - 10000 self-replicating python files. ***Havent tested, use at own risk. I am not responsible for any damage caused.***
+Updated and fixed diskfiller virus, will fill your disk up with anywhere between 1 - 10000 self-replicating python files. ***Tested on kali but that didint do anything but still, use at own risk. I am not responsible for any damage caused.***
