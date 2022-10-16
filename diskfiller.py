@@ -24,15 +24,18 @@ def Payload():
 
 
 
-input("This could damage or destroy your computer, use at own risk. This virus can produce 1-10000 self-replicating files. Please undestand i am not responsible for any damages. Would you like to proceed in the execution? (Yes/n)")
-
-if input == "Yes":
-    input("Are you sure?")
-    if input == "Yes" or "yes":
+inmain = input("This could damage or destroy your computer, use at own risk. This virus can produce 1-10000 self-replicating files. Please undestand i am not responsible for any damages. Would you like to proceed in the execution? (Yes/n)")
+yes = ["Yes", "y", "yes"]
+no = ["No", "n", "no"]
+if inmain in yes:
+    insec = input("Are you sure?")
+    if insec in yes:
         Payload()
+    else:
+      sys.exit()
     
     
-if input == "N" or "n" or "No":
+if inmain in no:
     sys.exit()
 
 
